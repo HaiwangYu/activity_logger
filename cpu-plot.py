@@ -8,7 +8,7 @@ import matplotlib
 print("Backend used by matplotlib is: ", matplotlib.get_backend())
 
 inputs = [
-"chunking-st.log",
+"log",
 ]
 labels = inputs
 linestyles = [
@@ -29,7 +29,7 @@ dfs = [pd.read_csv(tag, sep=' ', header=None) for tag in inputs]
 xscale = 9./24
 xscale = 204./740
 cpu_lim = [0, 200]
-ram_size = 31.3 # 31.3, 10
+ram_size = 251 # 31.3, 10
 ram_lim = [0, 5]
 
 fontsize = 18
